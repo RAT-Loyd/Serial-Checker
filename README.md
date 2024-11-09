@@ -1,6 +1,11 @@
-変更されたシリアルは緑に表示されるようになっています
-そして時間をもとにした名前でシリアルが自動的にtxtとして保存されます
+### 機能
 
-[Credit]
-SamuelTulach
-TPM Checker : https://github.com/SamuelTulach/tpm-spoofer
+シリアル番号は日時をもとにしたファイル名で自動的に `.txt` ファイルとして保存され、変更があったシリアルは**緑色**で表示されるため、簡単に確認することができます。
+
+左側*がSpoof後 *右側*がSpoof前
+![サンプル画像](https://i.imgur.com/mHw4jAP.png)
+
+### クレジット
+
+- **SamuelTulach**  
+  TPMチェッカー: [https://github.com/SamuelTulach/tpm-spoofer](https://github.com/SamuelTulach/tpm-spoofer)
