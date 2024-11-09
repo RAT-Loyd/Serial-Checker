@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="TPM">
+      <UniqueIdentifier>{3a025d4d-8989-49e7-b1e6-40487e6c8e9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{4745ee41-3bd8-403a-a454-708f58b67457}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header">
+      <UniqueIdentifier>{d46bee47-f58b-4f84-91b1-b96dc0fa3d4e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SerialCheck.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="Paint.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>TPM</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Paint.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="SerialCheck.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>TPM</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h">
+      <Filter>TPM</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
